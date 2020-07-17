@@ -1,0 +1,29 @@
+body{
+    background-color: #E9EDDF;
+}
+#pills-tab{
+    background-color: #D4DEFA;
+    width: 100%;
+}
+nav{
+    margin: 1px;
+}
+.form-inline my-2 my-lg-0{
+    float: right;
+}
+h5{
+    color: #476C5E;
+    font-weight: bold;
+    font-size: larger;
+} 
+p {
+    color: #476C5E;
+    font-weight: bold;
+}
+
+#footer{
+    background-color:#DBDBDB;
+}
+#footer > p {
+    color:#0F272E;
+}
