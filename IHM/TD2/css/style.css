@@ -22,8 +22,15 @@ p {
 }
 
 #footer{
-    background-color:#DBDBDB;
+   
+    text-align: right;
+    bottom: 0;
+ 
+    
 }
 #footer > p {
     color:#0F272E;
+}
+.jumbotron{
+    background-color: #E9EDDF
 }
