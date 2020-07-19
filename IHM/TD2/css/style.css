@@ -1,21 +1,12 @@
 body{
     background-color: #E9EDDF;
 }
-
-#pills-tab{
-    background-color: #D4DEFA;
-    width: 100%;
-}
-
 nav{
     margin: 1px;
 }
-.form-inline my-2 my-lg-0{
-    float: right;
-}
 
-bienvenue{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.bienvenue{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h5{
@@ -25,24 +16,29 @@ h5{
 } 
 
 #footer{
-   
+
     text-align: right;
     bottom: 0;
 }
 
-#footer > p {
+#footer p {
     color:#0F272E;
 }
 
 .jumbotron{
-    background-color:#8DCDC1;
+    background-color:#FCEEB9;
     margin-top: 2px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .cardtext {
     color: #252618;
 }
 .card{
-    border: double #D4D9CC 5px;
-    margin:10px 10px;
+    border: double #FCEEB9 3px;
+    margin: 10px 10px;
+}
+.card-contact{ 
+    border: double #FCEEB9 5px;
+    background-color: #FEFFFB;
+    margin: 3px;
 }
