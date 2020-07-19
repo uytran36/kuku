@@ -1,36 +1,48 @@
 body{
     background-color: #E9EDDF;
 }
+
 #pills-tab{
     background-color: #D4DEFA;
     width: 100%;
 }
+
 nav{
     margin: 1px;
 }
 .form-inline my-2 my-lg-0{
     float: right;
 }
-h5{
-    color: #476C5E;
-    font-weight: bold;
-    font-size: larger;
-} 
-p {
-    color: #476C5E;
-    font-weight: bold;
+
+bienvenue{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+h5{
+    color: #252618;
+    font-weight: bold;
+    font-size: xx-large;
+} 
 
 #footer{
    
     text-align: right;
     bottom: 0;
- 
-    
 }
+
 #footer > p {
     color:#0F272E;
 }
+
 .jumbotron{
-    background-color: #E9EDDF
+    background-color:#8DCDC1;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.cardtext {
+    color: #252618;
+}
+.card{
+    border: double #D4D9CC 5px;
+    margin:10px 10px;
 }
