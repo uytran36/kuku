@@ -1,0 +1,18 @@
+kiểu design là 3x2 (3 rows 2 cols - cũ)
+kiểu mới là n*1 (n rows 1 col - mới)
+
+tỉ lệ khung hình 1024x990
+div bự nhất bọc màn hình còn được gọi là container (4 div con):
+ - header
+ - side bar
+ - content
+ - footer
+ép các div 3 sang trái (float left) sang phải (float right)
+clear: both; -  ép 2 chiều
+
+bước 1: dùng html để chia vùng dữ liệu
+bước 2: làm css
+bước 3: format file và tô màu theo mỗi phần
+bước 4: dùng thuộc tính float/position để xếp các khối
+bước 5: dùng css format theo từng vùng theo thiết kế 
+bước 6: xoá background color không cần thiết
