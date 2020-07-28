@@ -4,16 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< Updated upstream
 C:\Users\Admin\OneDrive - VNU-HCMUS\kuku\IHM\musique\obj\Debug\
+=======
+C:\Users\HP\Documents\kuku\IHM\musique\obj\Debug\
+>>>>>>> Stashed changes
 musique
 none
 false
 DEBUG;TRACE
+<<<<<<< Updated upstream
 C:\Users\Admin\OneDrive - VNU-HCMUS\kuku\IHM\musique\App.xaml
 11151548125
 
 5-2017746502
 15-27338457
+=======
+C:\Users\HP\Documents\kuku\IHM\musique\App.xaml
+11151548125
+
+6-1765880711
+151150366742
+>>>>>>> Stashed changes
 MainWindow.xaml;
 
 False
