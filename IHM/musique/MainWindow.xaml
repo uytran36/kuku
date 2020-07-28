@@ -13,7 +13,7 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="1080" Width="1920">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
@@ -38,27 +38,262 @@
 
             <RowDefinition Height="1.5*" />
         </Grid.RowDefinitions>
-        <TextBlock>Khoa Do Musique</TextBlock>
+
+
+        <!--search bar-->
+        <materialDesign:ColorZone            
+            Grid.Column="1"
+            Mode="Inverted"
+            Padding="29">
+            <DockPanel>
+                <StackPanel
+                    Orientation="Horizontal"
+                    materialDesign:RippleAssist.IsCentered="True">
+
+                    <materialDesign:ColorZone  
+                        
+                        Mode="Inverted"
+                        Padding="8 4 8 4"
+                        CornerRadius="2"
+                        Panel.ZIndex="1"
+                        Margin="16 0 0 0"
+                        materialDesign:ShadowAssist.ShadowDepth="Depth1" Width="1146">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <materialDesign:PackIcon 
+                                Foreground="#FF62AD"
+                                Kind="Magnify" 
+                                Margin="0,6,0,0" Grid.ColumnSpan="2" Height="22" Width="30"/>
+                            <TextBox 
+                                Foreground="#FF62AD"
+                                Grid.Column="1"                                
+                                Margin="30,4,0,4"
+                                materialDesign:HintAssist.Hint="Rechercher"
+                                materialDesign:TextFieldAssist.DecorationVisibility="Hidden"
+                                BorderThickness="0"
+                                MinWidth="200"
+                                VerticalAlignment="Center" />
+                            <Button
+                                Style="{DynamicResource MaterialDesignToolButton}"
+                                Grid.Column="1" Margin="1063,0,25,0">
+                                <materialDesign:PackIcon
+                                    Foreground="#FF62AD"
+                                    Kind="Microphone"
+                                    Opacity="100"
+                                    Margin="0 0 0 0" />
+                            </Button>
+                        </Grid>
+                    </materialDesign:ColorZone>
+
+                </StackPanel>
+            </DockPanel>
+        </materialDesign:ColorZone>
+        <Border BorderBrush="#373737" 
+        BorderThickness="0,0,0,2" Background="{x:Null}" Margin="59,53,48,36" Grid.Column="1" />
+        <!--end of search bar-->
+
 
         <Button Grid.Column="2" Grid.RowSpan="14">Button 3</Button>
-        <Button Grid.Row="1">Button 4</Button>
+        <!--Accueil-->
+        <Grid
+            Background="#373737"
+            Grid.Row="1"
+            Width="239">
+            <Button
+                BorderThickness="0"
+                Background="#373737"
+                Height="Auto"
+                materialDesign:ButtonAssist.CornerRadius="0">
+                <TextBlock
+                    Foreground="White"
+                    Text="Accueil"
+                    Margin="-50 0 0 0">
+
+                </TextBlock>
+            </Button>
+        </Grid>
+        <!--end of Accueil-->
+
+        <!--Chansons-->
+        <Grid
+            Background="#373737"
+            Grid.Row="2"
+            Width="239">
+            <Button         
+                BorderBrush="#373737"
+                BorderThickness="0"
+                Background="#373737"
+                Height="Auto"
+                materialDesign:ButtonAssist.CornerRadius="0"
+                ToolTip="MaterialDesignRaisedLightButton with Round Corners">
+                <TextBlock 
+                    Foreground="#FF62AD"
+                    Text="Chansons"
+                    Margin="-50 0 0 0">
+
+                </TextBlock>
+            </Button>
+        </Grid>
+        <!--end of Chansons-->
+
+        <!--Album-->
+        <Grid
+            Background="#373737"
+            Grid.Row="3"
+            Width="239">
+            <Button         
+                BorderBrush="#373737"
+                BorderThickness="0"
+                Background="#373737"
+                Height="Auto"
+                materialDesign:ButtonAssist.CornerRadius="0"
+                ToolTip="MaterialDesignRaisedLightButton with Round Corners" Margin="0,-1">
+                <TextBlock 
+                    Foreground="#FF62AD"
+                    Text="Album"
+                    Margin="-50 0 0 0">
+
+                </TextBlock>
+            </Button>
+        </Grid>
+        <!--end of Album-->
+
+        <!--Favoris-->
+        <Grid
+            Background="#373737"
+            Grid.Row="4"
+            Width="239">
+            <Button   
+                BorderBrush="#373737"
+                BorderThickness="0"
+                Background="#373737"
+                Height="Auto"
+                materialDesign:ButtonAssist.CornerRadius="0" Margin="0,-1">
+                <TextBlock 
+                    Foreground="#FF62AD"
+                    Text="Favoris"
+                    Margin="-50 0 0 0">
+
+                </TextBlock>
+            </Button>
+        </Grid>
+        <!--end of Favoris-->
+
+        <!--Playlist-->
+        <Grid
+            Background="#373737"
+            Grid.Row="5"
+            Width="239">
+            <Button    
+                BorderBrush="#373737"
+                BorderThickness="0"
+                Background="#373737"
+                Height="Auto"
+                materialDesign:ButtonAssist.CornerRadius="0" Margin="0,-1">
+                <TextBlock 
+                    Foreground="#FF62AD"
+                    Text="Playlist"
+                    Margin="-50 0 0 0">
+
+                </TextBlock>
+            </Button>
+        </Grid>
+        <!--end of Playlist-->
+
+        <!--Playlist 1-->
+        <Grid
+            Background="#373737"
+            Grid.Row="6"
+            Width="239">
+            <Button       
+                BorderBrush="#373737"
+                BorderThickness="0"
+                Background="#373737"
+                Height="Auto"
+                materialDesign:ButtonAssist.CornerRadius="0" Margin="0,-1">
+                <TextBlock 
+                    Foreground="#FF62AD"
+                    Text="Playlist 1"
+                    Margin="-20 0 0 0">
+
+                </TextBlock>
+            </Button>
+        </Grid>
+        <!--end of Playlist 1-->
+
+        <!--Playlist 2-->
+        <Grid
+            Background="#373737"
+            Grid.Row="7"
+            Width="239">
+            <Button    
+                BorderBrush="#373737"
+                BorderThickness="0"
+                Background="#373737"
+                Height="Auto"
+                materialDesign:ButtonAssist.CornerRadius="0" Margin="0,-1">
+                <TextBlock 
+                    Foreground="#FF62AD"
+                    Text="Playlist 2"
+                    Margin="-20 0 0 0">
+
+                </TextBlock>
+            </Button>
+        </Grid>
+        <!--end of Playlist 2-->
+
+        <!--Playlist 3-->
+        <Grid
+            Background="#373737"
+            Grid.Row="8"
+            Width="239">
+            <Button        
+                BorderBrush="#373737"
+                BorderThickness="0"
+                Background="#373737"
+                Height="Auto"
+                materialDesign:ButtonAssist.CornerRadius="0" Margin="0,-1">
+                <TextBlock 
+                    Foreground="#FF62AD"
+                    Text="Playlist 3"
+                    Margin="-20 0 0 0">
+
+                </TextBlock>
+            </Button>
+        </Grid>
+        <!--end of Playlist 3-->
+
+        <!--Playlist 4-->
+        <Grid
+            Background="#373737"
+            Grid.Row="9"
+            Width="239">
+            <Button   
+                BorderBrush="#373737"
+                BorderThickness="0"
+                Background="#373737"
+                Height="Auto"
+                materialDesign:ButtonAssist.CornerRadius="0" Margin="0,-1">
+                <TextBlock 
+                    Foreground="#FF62AD"
+                    Text="Playlist 4"
+                    Margin="-20 0 0 0">
+
+                </TextBlock>
+            </Button>
+        </Grid>
+        <!--end of Playlist 4-->
         <Button Grid.Column="1" Grid.Row="1">Button 5</Button>
-        <Button Grid.Row="3">Button 6</Button>
+
         <Button Grid.Row="3" Grid.Column="1">Button 6</Button>
-        <Button Grid.Row="2">Button 7</Button>
+
         <Button Grid.Column="1" Grid.Row="2">Button 8</Button>
         <Button Grid.Row="15">Button 4</Button>
         <Button Grid.Row="15" Grid.Column="1" Grid.ColumnSpan="2">Button 9</Button>
-        <Button Grid.Row="4">Button 4</Button>
-        <Button Grid.Row="5">Button 4</Button>
-        <Button Grid.Row="6">Button 4</Button>
-        <Button Grid.Row="7">Button 4</Button>
-        <Button Grid.Row="8">Button 4</Button>
-        <Button Grid.Row="9">Button 4</Button>
-        <Button Grid.Row="10">Button 4</Button>
-        <Button Grid.Row="11">Button 4</Button>
-        <Button Grid.Row="12">Button 4</Button>
-        <Button Grid.Row="13">Button 4</Button>
 
         <Button Grid.Row="4" Grid.Column="1">Button 4</Button>
         <Button Grid.Row="5" Grid.Column="1">Button 4</Button>
