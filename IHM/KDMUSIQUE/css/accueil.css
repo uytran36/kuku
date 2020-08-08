@@ -46,7 +46,7 @@
     font-size: small;
     color: #FFF;
 }
-.smaltextft:hover, .litextft:hover{
+.litextft:hover{
     color: coral;
 }
 /*END HEADER AND FOOTER*/
