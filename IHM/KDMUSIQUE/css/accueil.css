@@ -1,0 +1,52 @@
+/* START HEADER AND FOOTER*/
+#header{
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+#navbar{
+    width: 53%;
+    margin: 0 auto 0 auto;
+}
+#searchhd{
+   width: 53%;
+}
+.seformhd{
+    color: white;
+    margin-left: 3%;
+}
+.seconnecterhd:hover{
+    color: coral;
+}
+.s_incrirhd:hover{
+    color: coral;
+}
+.daunganhd{
+    color: #FFf;
+}
+/*FOOTER*/
+#footer{
+    background-color: black;
+    margin-top: 0.5%;
+}
+#contentft{
+    padding: 1%;
+    margin: 0 auto;
+    width: 60%;
+}
+.logofooter{
+    width: 50px; 
+    height: 50px;
+}
+.smaltextulft{
+    color: #FFF;
+    
+}
+.smaltextft{
+    font-size: small;
+    color: #FFF;
+}
+.smaltextft:hover, .litextft:hover{
+    color: coral;
+}
+/*END HEADER AND FOOTER*/
