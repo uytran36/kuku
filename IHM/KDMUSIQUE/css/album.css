@@ -1,0 +1,104 @@
+/* START HEADER AND FOOTER*/
+#header{
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+#navbar{
+    width: 53%;
+    margin: 0 auto 0 auto;
+}
+#searchhd{
+   width: 53%;
+}
+.seformhd{
+    color: white;
+    margin-left: 3%;
+}
+.seconnecterhd:hover{
+    color: coral;
+}
+.s_incrirhd:hover{
+    color: coral;
+}
+.daunganhd{
+    color: #FFf;
+}
+/*FOOTER*/
+#footer{
+    background-color: black;
+    margin-top: 0.5%;
+}
+#contentft{
+    padding: 1%;
+    margin: 0 auto;
+    width: 60%;
+}
+.logofooter{
+    width: 50px; 
+    height: 50px;
+}
+.smaltextulft{
+    color: #FFF;
+    
+}
+.smaltextft{
+    font-size: small;
+    color: #FFF;
+}
+.litextft:hover{
+    color: coral;
+}
+/*END HEADER AND FOOTER*/
+/*BODY*/
+#body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5E5E5;
+    height: 1900px;
+}
+.row .col{
+    width: 200px;   
+}
+.album img{
+    margin-top: 30px;
+    width: 198px;
+    margin: 0 auto;
+}
+.nomDeAlbum{
+    text-align: center;
+    color: black;
+}
+.chanteur{
+    text-align: center;
+    color: #ff577F;
+}
+#VNMusique{
+    margin-top: 1%;
+}
+#KPop{
+    margin-top: 1%;
+}
+#US-UK{
+    margin-top: 1%;
+}
+.row h1{
+    font-size: 35px;
+    margin-left: 2%;
+    padding-top: 1%;
+}
+.album a{
+    text-decoration: none;
+    color: pink;
+}
+.row{
+    margin-top: 1%;
+}
+.album a:hover{
+    text-decoration: none;
+}
+.album a:hover .nomDeAlbum{
+    font-weight: bold;
+}
+.album a:hover .chanteur{
+    font-weight: bold;
+}
