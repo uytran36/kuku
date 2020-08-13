@@ -1,0 +1,122 @@
+/* START HEADER AND FOOTER*/
+#header{
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+#navbar{
+    width: 53%;
+    margin: 0 auto 0 auto;
+}
+#searchhd{
+   width: 53%;
+}
+.seformhd{
+    color: white;
+    margin-left: 3%;
+}
+.seconnecterhd:hover{
+    color: coral;
+}
+.s_incrirhd:hover{
+    color: coral;
+}
+.daunganhd{
+    color: #FFf;
+}
+/*FOOTER*/
+#footer{
+    background-color: black;
+    margin-top: 0.5%;
+}
+#contentft{
+    padding: 1%;
+    margin: 0 auto;
+    width: 60%;
+}
+.logofooter{
+    width: 50px; 
+    height: 50px;
+}
+.smaltextulft{
+    color: #FFF;
+    
+}
+.smaltextft{
+    font-size: small;
+    color: #FFF;
+}
+.litextft:hover{
+    color: coral;
+}
+/*END HEADER AND FOOTER*/
+
+body {
+    background-color: #E5E5E5;
+}
+
+/* menu bar on the left */
+.mainBody {
+    height: calc(100vh - 70px);
+    background-color: #E5E5E5;
+    margin-top: -10px;
+}
+
+.categories {
+    width: 200px;
+    height: 100%;
+    background-color: #fff;
+    float: left;
+}
+
+.categoriesSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    width: 100%;
+    display: flex;  
+    padding: 20px 0px;
+    cursor: pointer;
+}
+
+.category:hover {
+    background-color: #C4C4C4;
+}
+
+.categories a {
+    margin-left: 35px;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.icon:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.playlist {
+    width: 100%;
+    display: flex;  
+    padding: 20px 10px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.playlist:hover {
+    background-color: #C4C4C4;
+}
+/* end of menu bar  */
+
+/* content */
+.content {
+   float: left;
+}
+/* end of content */
+
+/* playzone and lyrics */
+.playZone {
+    
+}
+/* end of playzone and lyrics */
