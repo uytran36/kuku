@@ -117,6 +117,37 @@ body {
 
 /* playzone and lyrics */
 .playZone {
+    margin-left: 1600px;
     
+}
+
+.wrap {
+    padding: 20px;
+}
+
+.wrapPlay {
+    background-color: #c4c4c4;
+}
+
+.wrapInfo img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+#infoSong {
+    float: left;
+    margin-left: 15px;
+    padding-right: 70px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#like {
+    width: 20px;
+    height: 20px;
+}
+#progress {
+
 }
 /* end of playzone and lyrics */
