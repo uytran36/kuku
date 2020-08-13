@@ -1,0 +1,161 @@
+/* START HEADER AND FOOTER*/
+#header{
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+#navbar{
+    width: 53%;
+    margin: 0 auto 0 auto;
+}
+#searchhd{
+   width: 53%;
+}
+.seformhd{
+    color: white;
+    margin-left: 3%;
+}
+.seconnecterhd:hover{
+    color: coral;
+}
+.s_incrirhd:hover{
+    color: coral;
+}
+.daunganhd{
+    color: #FFf;
+}
+/*FOOTER*/
+#footer{
+    background-color: black;
+    margin-top: 0.5%;
+}
+#contentft{
+    padding: 1%;
+    margin: 0 auto;
+    width: 60%;
+}
+.logofooter{
+    width: 50px; 
+    height: 50px;
+}
+.smaltextulft{
+    color: #FFF;
+    
+}
+.smaltextft{
+    font-size: small;
+    color: #FFF;
+}
+.litextft:hover{
+    color: coral;
+}
+/*END HEADER AND FOOTER*/
+
+/* BODY */
+#Login {
+    border-color: black;
+    width: 500px;
+    margin: 0 auto;
+    border: 2px solid black;
+
+}
+#Login > legend {
+    padding: 0;
+    margin: 0 auto;
+    font-weight: bold;
+    width: fit-content;
+}
+span.frmName {
+    margin-right: 20px;
+    width: 70px;
+    height: 25px;
+    display: inline-block;
+    font-size: 15px;
+    
+}
+#frmUsername {
+    color: #b3abab;
+    width: 310px;
+    height: 35px;
+    border: 1px solid #b3abab;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+#frmUsername:hover, #frmPassword:hover {
+    border-color: black;
+}
+#frmPassword {
+    color: #b3abab;
+    width: 310px;
+    height: 35px;
+    border: 1px solid #b3abab;
+    margin: auto;
+    margin-bottom: 10px;
+}
+#info {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 400px;
+    border: 0;
+}
+#btnLogin {
+    float: right;
+    width: 200px;
+    border-radius: 50px;
+    height: 40px;
+    background-color: #ff577f;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+#btnLogin:hover {
+    background-color: #f58ba4;
+    opacity: 1;
+}
+#checkPwd, #rememberPwd {
+    margin-top: 10px;
+}
+
+#forgotPwd {
+    widows: 50px;
+    color: #ff577f;
+    text-align: center;
+    margin-top: 50px;
+    height: fit-content;
+    font-size: 12pt;
+    height: 25px;
+}
+
+#noAccount {
+    text-align: center;
+}
+
+#questionAcc {
+    font-weight: bold;
+}
+
+#btnSignup {
+    color: grey;
+    background-color: white;
+    border:1px solid grey;
+    width: 400px;
+    border-radius: 50px;
+    height: 50px;
+    margin-top: 20px;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+#btnSignup:hover {
+    background-color: gray;
+    color: white;
+    opacity: 1;
+}
+#forgotPwd > a {
+    text-decoration: none;
+}
+
+#forgotPwd > a:hover {
+    color: #f58ba4;
+}
