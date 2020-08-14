@@ -1,0 +1,54 @@
+.wrap-content {
+    padding: 20px 40px;
+}
+
+label {
+    font-weight: bolder;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+.cardSong {
+    background-color: #f7f7f7;
+    width: 800px;
+    margin: 0px;
+    border-top: 1px solid #c5c5c5;
+    padding: 15px;
+}
+
+.nameSong {
+    float: left;
+    padding-right: 250px;
+}
+
+.author {
+    float: left;
+    padding-right: 240px;
+}
+
+.toolBox ul {
+    margin-top: -40px;
+    padding-bottom: 50px;
+}
+
+.toolBox ul li {
+    list-style-type: none;
+    float: left;
+    cursor: pointer;
+}
+
+.cardSong a:hover {
+    text-decoration: none;
+    color: #FF2D55;
+}
+
+.toolBox ul li:hover {
+    color: #FF2D55;
+}
+
+#dTable {
+    overflow-y: scroll;
+    height: 200px;
+    width: fit-content;
+    margin-bottom: 60px;
+}
+
