@@ -78,18 +78,22 @@
 #VNMusique{
     margin-top: 1%;
 }
-#KPop{
-    margin-top: 10%;
-}
-#US-UK{
-    margin-top: 10%;
-}
-.row h1{
-    font-size: 35px;
-    margin-left: 2%;
+#row1 {
     padding-top: 1%;
     font-stretch: ultra-expanded;
     font-weight: bold;
+    margin: 0 auto;
+}
+#row1 ul li{
+    font-weight: bold;
+    font-size: 26px;
+    list-style: none;
+    float: left;
+    margin: 0 2em;
+    padding-left: 8px;
+}
+#main{
+    color: #ff577F;
 }
 .album a{
     text-decoration: none;
@@ -106,4 +110,8 @@
 }
 .album a:hover .chanteur{
     font-weight: bold;
+}
+.row .col ul li a:hover{
+    text-decoration: none;
+    color: #ff577F;
 }
