@@ -9,7 +9,7 @@
     margin: 0 auto 0 auto;
 }
 #searchhd{
-   width: 60%;
+    width:60%;
 }
 .seformhd{
     color: white;
@@ -40,7 +40,6 @@
 }
 .smaltextulft{
     color: #FFF;
-    
 }
 .smaltextft{
     font-size: small;
@@ -51,15 +50,10 @@
 }
 /*END HEADER AND FOOTER*/
 /*BODY*/
-#body{
+#content{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #E5E5E5;
-    height: 2000px;
     width: 60%;
-}
-.row .col{
-    width: 140px;
-    text-align: center;
 }
 .album img{
     margin-top: 30px;
@@ -74,16 +68,8 @@
     text-align: center;
     color: #ff577F;
 }
-#VNMusique{
-    margin-top: 1%;
-}
-#KPop{
-    margin-top: 10%;
-}
-#US-UK{
-    margin-top: 10%;
-}
-.row h1{
+
+#row0{
     font-size: 35px;
     margin-left: 2%;
     padding-top: 1%;
@@ -94,9 +80,6 @@
     text-decoration: none;
     color: #ff577F;
 }
-.row{
-    margin-top: 1%;
-}
 .album a:hover{
     text-decoration: none;
 }
@@ -105,4 +88,29 @@
 }
 .album a:hover .chanteur{
     font-weight: bold;
+}
+#btnnext{
+    margin-left: 100%;
+    background-color: gray;
+    padding:10%;
+}
+#btnprev{
+    margin-right: 100%;
+    background-color: gray;
+    padding:10%;
+}
+.theme a{
+    text-decoration: none;
+}
+.theme a:hover{
+    text-decoration: none;
+}
+.theme img{
+    width: 210px;
+    border-radius:8px;
+}
+.txttheme{
+    color:#fff; 
+    font-weight: bold; 
+    font-size: x-large;
 }
