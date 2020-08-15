@@ -9,7 +9,7 @@
     margin: 0 auto 0 auto;
 }
 #searchhd{
-   width: 53%;
+    width:60%;
 }
 .seformhd{
     color: white;
@@ -40,7 +40,6 @@
 }
 .smaltextulft{
     color: #FFF;
-    
 }
 .smaltextft{
     font-size: small;
@@ -50,3 +49,84 @@
     color: coral;
 }
 /*END HEADER AND FOOTER*/
+
+/*BODY*/
+#content{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5E5E5;
+    width: 60%;
+}
+.album img{
+    margin-top: 30px;
+    width: 152px;
+    height: 180px;
+}
+.nomDeAlbum{
+    text-align: center;
+    color: black;
+}
+.chanteur{
+    text-align: center;
+    color: #ff577F;
+}
+
+#row0{
+    font-size: 35px;
+    margin-left: 2%;
+    padding-top: 1%;
+    font-stretch: ultra-expanded;
+    font-weight: bold;
+}
+.album a{
+    text-decoration: none;
+    color: #ff577F;
+}
+.album a:hover{
+    text-decoration: none;
+}
+.album a:hover .nomDeAlbum{
+    font-weight: bold;
+}
+.album a:hover .chanteur{
+    font-weight: bold;
+}
+#btnnext{
+    margin-left: 100%;
+    background-color: gray;
+    padding:10%;
+}
+#btnprev{
+    margin-right: 100%;
+    background-color: gray;
+    padding:10%;
+}
+#Tencol{
+    text-align: center;
+    color:#0F1E36;
+}
+.tenh4{
+    font-weight: bold;
+    color: #000;
+}
+#btnten{
+    background-color: #E5E5E5;
+    outline: none;
+    border: none;
+}
+#btnten:hover {background: #ddd;}
+
+.theme a{
+    text-decoration: none;
+}
+.theme a:hover{
+    text-decoration: none;
+}
+.theme img{
+    width: 210px;
+    border-radius:8px;
+}
+.txttheme{
+    color:#fff; 
+    font-weight: bold; 
+    font-size: x-large;
+}

@@ -9,7 +9,7 @@
     margin: 0 auto 0 auto;
 }
 #searchhd{
-   width: 60%;
+    width:60%;
 }
 .seformhd{
     color: white;
@@ -40,7 +40,6 @@
 }
 .smaltextulft{
     color: #FFF;
-    
 }
 .smaltextft{
     font-size: small;
@@ -50,16 +49,25 @@
     color: coral;
 }
 /*END HEADER AND FOOTER*/
+
 /*BODY*/
-#body{
+#content{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #E5E5E5;
-    height: 2000px;
     width: 60%;
 }
-.row .col{
-    width: 140px;
-    text-align: center;
+.album a{
+    text-decoration: none;
+    color: #ff577F;
+}
+.album a:hover{
+    text-decoration: none;
+}
+.album a:hover .nomDeAlbum{
+    font-weight: bold;
+}
+.album a:hover .chanteur{
+    font-weight: bold;
 }
 .album img{
     margin-top: 30px;
@@ -74,35 +82,23 @@
     text-align: center;
     color: #ff577F;
 }
-#VNMusique{
-    margin-top: 1%;
-}
-#KPop{
-    margin-top: 10%;
-}
-#US-UK{
-    margin-top: 10%;
-}
-.row h1{
+#row0{
     font-size: 35px;
     margin-left: 2%;
     padding-top: 1%;
     font-stretch: ultra-expanded;
     font-weight: bold;
 }
-.album a{
-    text-decoration: none;
-    color: #ff577F;
+#btnnext{
+    margin-left: 100%;
+    background-color: gray;
+    padding:10%;
 }
-.row{
-    margin-top: 1%;
+#btnprev{
+    margin-right: 100%;
+    background-color: gray;
+    padding:10%;
 }
-.album a:hover{
-    text-decoration: none;
-}
-.album a:hover .nomDeAlbum{
-    font-weight: bold;
-}
-.album a:hover .chanteur{
-    font-weight: bold;
+.formartist{
+    border-radius:100px;
 }

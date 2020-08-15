@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/album.css" />
+    <link rel="stylesheet" href="css/search.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -21,6 +21,7 @@
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="image" style="width:45px; height:45px;">
             </a>
+
             <!--Search và micro-->
             <div class="input-group  mr-sm-2" id="searchhd">
                 <input class="form-control" type="search" placeholder="Search" aria-label="Search"  >
@@ -43,9 +44,16 @@
         </nav>
     </div>
     <div class="container" id="body">
-        <div id="VNMusique">
+        <div id="ResultFound">
             <div class="row" id="row1">
-                <h1>Vietnam</h1>
+                <div class="col">
+                    <ul>
+                        <li id="main"><a href="#">Tout</a></li>
+                        <li><a href="#">Chanson</a></li>
+                        <li><a href="#">Artiste</a></li>
+                        <li><a href="#">Album</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="row" id="row2">
                 <div class="col">
@@ -141,158 +149,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="KPop">
             <div class="row" id="row4">
-                <h1>Kpop</h1>
-            </div>
-            <div class="row" id="row5">
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row" id="row6">
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="US-UK">
-            <div class="row" id="row7">
-                <h1>US-UK</h1>
-            </div>
-            <div class="row" id="row8">
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="album">
-                        <a href="#">
-                            <img src="images/circle.png" alt="circle" height="200" width="200">
-                            <div class="nomDeAlbum">Circles</div>
-                            <div class="chanteur">Post Malone</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row" id="row9">
                 <div class="col">
                     <div class="album">
                         <a href="#">
@@ -341,7 +198,7 @@
             </div>
         </div>
     </div>
-    <div id="footer">
+    <div id="footer" >
         <div id="contentft" class="row">
             <!--LOGO và cre-->
             <div class="col-5">

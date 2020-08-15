@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/favoris.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--HEADER-->
+    <div  id="header">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="image" style="width:45px; height:45px;">
+            </a>
+            
+            <!--Search và micro-->
+            <div class="input-group  mr-sm-2" id="searchhd">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search"  >
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-light" style="box-shadow: 0 0;" >
+                        <i class="fa fa-microphone"></i>
+                    </button>
+                </div>
+            </div>
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+            <div class="seformhd">
+                <a class="seconnecterhd" href="#" style="text-decoration: none;">Se connecter <span  class="daunganhd">/</span> </a>
+                
+                <a class="s_incrirhd" href="#" style="text-decoration: none;">S'incrir</a>
+            </div>
+              
+          </nav>
+    </div>
+    <!--END HEADER-->
+
+    <div class="mainBody">
+        <div class="categories">
+            <div class="categoriesSelection">
+                <span class="category">
+                    <a class="icon">
+                        Accueil
+                    </a>
+                    <img src="icon/Discover.png" style="width:20px; height:20px; margin-left: 40px;">
+                </span>
+                <span class="category">
+                    <a class="icon">
+                        Album
+                    </a>
+                    <img src="icon/Albums.png" style="width:20px; height:20px; margin-left: 40px;">
+                </span>
+                <span class="category">
+                    <a class="icon">
+                        Favoris
+                    </a>
+                    <img src="icon/Favourite.png" style="width:20px; height:20px; margin-left: 40px;">
+                </span>
+                <span class="category">
+                    <a class="icon">
+                        Playlist
+                    </a>
+                    <img src="icon/Plus.png" style="width:20px; height:20px; margin-left: 40px;">
+                </span>
+                <span class="playlist">
+                    <a href="#">Playlist 1</a>
+                    <img src="icon/Add.png" style="width:20px; height:20px; margin-left: 40px;">
+                </span>
+                <span class="playlist">
+                    <a href="#">Playlist 2</a>
+                    <img src="icon/Add.png" style="width:20px; height:20px; margin-left: 40px;">
+                </span>
+                <span class="playlist">
+                    <a href="#">Playlist 3</a>
+                    <img src="icon/Add.png" style="width:20px; height:20px; margin-left: 40px;">
+                </span>
+                <span class="playlist">
+                    <a href="#">Playlist 4</a>
+                    <img src="icon/Add.png" style="width:20px; height:20px; margin-left: 40px;">
+                </span>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="wrap-content">
+                <div class="wrapFavoris">
+                    <label>Vos Favoris</label>
+                    <div class="container" id="dTable">
+                        <div class="cardSong" id="song1">
+                            <div class="nameSong">
+                                <a href="#">1. Song 1</a>
+                            </div>
+                            <div class="author">
+                                <a href="#">Taylor Swift</a>
+                            </div>
+                            <div class="toolBox">
+                                <ul>
+                                    <li><i class="material-icons">playlist_add</i></li>
+                                    <li><i class="material-icons">favorite</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cardSong" id="song2">
+                            <div class="nameSong">
+                                <a href="#">1. Song 1</a>
+                            </div>
+                            <div class="author">
+                                <a href="#">Taylor Swift</a>
+                            </div>
+                            <div class="toolBox">
+                                <ul>
+                                    <li><i class="material-icons">playlist_add</i></li>
+                                    <li><i class="material-icons">favorite</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cardSong" id="song3">
+                            <div class="nameSong">
+                                <a href="#">2. Song 2</a>
+                            </div>
+                            <div class="author">
+                                <a href="#">Taylor Swift</a>
+                            </div>
+                            <div class="toolBox">
+                                <ul>
+                                    <li><i class="material-icons">playlist_add</i></li>
+                                    <li><i class="material-icons">favorite</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cardSong" id="song4">
+                            <div class="nameSong">
+                                <a href="#">3. Song 3</a>
+                            </div>
+                            <div class="author">
+                                <a href="#">Taylor Swift</a>
+                            </div>
+                            <div class="toolBox">
+                                <ul>
+                                    <li><i class="material-icons">playlist_add</i></li>
+                                    <li><i class="material-icons">favorite</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cardSong" id="song5">
+                            <div class="nameSong">
+                                <a href="#">4. Song 4</a>
+                            </div>
+                            <div class="author">
+                                <a href="#">Taylor Swift</a>
+                            </div>
+                            <div class="toolBox">
+                                <ul>
+                                    <li><i class="material-icons">playlist_add</i></li>
+                                    <li><i class="material-icons">favorite</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cardSong" id="song6">
+                            <div class="nameSong">
+                                <a href="#">5. Song 5</a>
+                            </div>
+                            <div class="author">
+                                <a href="#">Taylor Swift</a>
+                            </div>
+                            <div class="toolBox">
+                                <ul>
+                                    <li><i class="material-icons">playlist_add</i></li>
+                                    <li><i class="material-icons">favorite</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cardSong" id="song7">
+                            <div class="nameSong">
+                                <a href="#">6. Song 6</a>
+                            </div>
+                            <div class="author">
+                                <a href="#">Taylor Swift</a>
+                            </div>
+                            <div class="toolBox">
+                                <ul>
+                                    <li><i class="material-icons">playlist_add</i></li>
+                                    <li><i class="material-icons">favorite</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cardSong" id="song8">
+                            <div class="nameSong">
+                                <a href="#">7. Song 7</a>
+                            </div>
+                            <div class="author">
+                                <a href="#">Taylor Swift</a>
+                            </div>
+                            <div class="toolBox">
+                                <ul>
+                                    <li><i class="material-icons">playlist_add</i></li>
+                                    <li><i class="material-icons">favorite</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cardSong" id="song9">
+                            <div class="nameSong">
+                                <a href="#">8. Song 8</a>
+                            </div>
+                            <div class="author">
+                                <a href="#">Taylor Swift</a>
+                            </div>
+                            <div class="toolBox">
+                                <ul>
+                                    <li><i class="material-icons">playlist_add</i></li>
+                                    <li><i class="material-icons">favorite</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cardSong" id="song10">
+                            <div class="nameSong">
+                                <a href="#">9. Song 9</a>
+                            </div>
+                            <div class="author">
+                                <a href="#">Taylor Swift</a>
+                            </div>
+                            <div class="toolBox">
+                                <ul>
+                                    <li><i class="material-icons">playlist_add</i></li>
+                                    <li><i class="material-icons">favorite</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="wrap-list-artist">
+                    <label>Vos artistes</label>
+                    <div class="wrap-artist">
+                        <div id="slider">
+                            <input type="radio" name="slider" id="slide1" checked>
+                            <input type="radio" name="slider" id="slide2">
+                            <div id="slides">
+                               <div id="overflow">
+                                  <div class="inner">
+                                     <div class="slide slide_1">
+                                        <div class="slide-content">
+                                           <div class="artist">
+                                               <img src="images/circle.png">
+                                               <img src="images/circle.png">
+                                               <img src="images/circle.png">
+                                               <img src="images/circle.png">                                                                                        
+                                           </div>
+                                           <div class="artist-name">
+                                               <label>Post Malone</label>
+                                               <label>Post Malone</label>
+                                               <label>Post Malone</label>
+                                               <label>Post Malone</label>
+                                           </div>
+                                        </div>
+                                     </div>
+                                     <div class="slide slide_2">
+                                        <div class="slide-content">
+                                            <div class="artist">
+                                                <img src="images/circle.png">
+                                                <img src="images/circle.png">
+                                                <img src="images/circle.png">
+                                                <img src="images/circle.png">                                                                                        
+                                            </div>
+                                            <div class="artist-name">
+                                                <label>Post Malone</label>
+                                                <label>Post Malone</label>
+                                                <label>Post Malone</label>
+                                                <label>Post Malone</label>
+                                            </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                            <div id="controls">
+                               <label for="slide1"></label>
+                               <label for="slide2"></label>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="wrap-list-recommandations">
+                    <label>Recommandations</label>
+                    <div class="wrap-recommandations">
+                        <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="album">
+                                                <a href="#">
+                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
+                                                    <div class="nomDeAlbum">Circles</div>
+                                                    <div class="chanteur">Post Malone</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="album">
+                                                <a href="#">
+                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
+                                                    <div class="nomDeAlbum">Circles</div>
+                                                    <div class="chanteur">Post Malone</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="album">
+                                                <a href="#">
+                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
+                                                    <div class="nomDeAlbum">Circles</div>
+                                                    <div class="chanteur">Post Malone</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="album">
+                                                <a href="#">
+                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
+                                                    <div class="nomDeAlbum">Circles</div>
+                                                    <div class="chanteur">Post Malone</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row" id="row2">
+                                        <div class="col">
+                                            <div class="album">
+                                                <a href="#">
+                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
+                                                    <div class="nomDeAlbum">Circles</div>
+                                                    <div class="chanteur">Post Malone</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="album">
+                                                <a href="#">
+                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
+                                                    <div class="nomDeAlbum">Circles</div>
+                                                    <div class="chanteur">Post Malone</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="album">
+                                                <a href="#">
+                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
+                                                    <div class="nomDeAlbum">Circles</div>
+                                                    <div class="chanteur">Post Malone</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="album">
+                                                <a href="artistes.html">
+                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
+                                                    <div class="nomDeAlbum">Circles</div>
+                                                    <div class="chanteur">Post Malone</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true" id="btnprev"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true" id="btnnext"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="playZone">
+            <div class="wrapPlay">
+                <div class="wrap">
+                    <div class="wrapInfo">
+                        <img src="icon/cover.jpg">
+                        <p id="infoSong">
+                            Danse
+                            <br>
+                            Lomepal
+                        </p>
+                        <img src="icon/Favourite.png" id="like">
+                    </div>
+                    <div class="playBar">
+                        <img src="icon/play.png">
+                        <progress value="32" max="100"> 32% </progress>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapLyrics">
+                <label>Danse</label>
+                <p class="artist">Lomepal</p>
+                <p id="lyrics">Hey, j'repensais à...
+                    <br>
+                    Yeah
+                    <br>
+                    Fais la cour aux femmes <br>
+                    Je fais la cour aux femmes <br>
+                    Hey, hey, yeah <br>
+                    On l'a fait dans le sofa <br>
+                    Je l'ai fait dans l'œsophage <br>
+                    Hey, hey <br>
+                    Pauvre de moi, j'me souvenais pas <br>
+                    Qu'on avait le pouvoir de danser comme ça <br>
+                    Quand on se laisse aller, laisse-toi aller <br>
+                    Laisse nos énergies faire, je veux plus parler <br>
+                    Je donnerais tout ce que j'ai sur moi <br>
+                    Juste pour te voir danser encore une fois <br>
+                    Quand tu te laisses aller, laisse-toi aller <br>
+                    Oublie les autres connards qui te regardent, yeah <br>
+                    Malgré la lumière, on ne voit plus que nous <br>
+                    La musique s'est arrêtée, les aiguilles se figent et je sens, je te sens <br>
+                    Malgré la lumière, on ne voit plus que nous <br>
+                    La musique s'est arrêtée, les aiguilles se figent et je sens, je te sens</p>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <div id="footer" >
+        <div id="contentft" class="row">
+            <!--LOGO và cre-->
+            <div class="col-5">
+                <img src="images/logo.png" alt="" style="" class="logofooter">
+                <span class="smaltextft"> ©2020 Designer par KDM d'équipe. </span>
+            </div>
+            <!--Các phản hồi ng dùng etc-->
+            <div class="col-3">
+                <ul class="smaltextulft">
+                    <a href="" style="text-decoration: none;"><li class="litextft">
+                        Điều khoản
+                    </li></a>
+                    <a href="" style="text-decoration: none;"><li class="litextft">
+                        APIs
+                    </li></a>  
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul class="smaltextulft">
+                    <a href="" style="text-decoration: none;"><li class="litextft">
+                        Liên hệ
+                    </li></a>
+                    <a href="" style="text-decoration: none;"><li class="litextft">
+                        Góp ý
+                    </li></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--END FOOTER-->
+
+    <!--JS-->
+    <script src="js/accueil.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
