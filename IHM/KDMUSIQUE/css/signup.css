@@ -52,117 +52,101 @@
 /*END HEADER AND FOOTER*/
 
 /* BODY */
-#Login {
+#signup {
     border-color: black;
-    width: 1000px;
+    width: 500px;
     margin: 0 auto;
     border: 0;
-    margin-top: 25px;
+    margin-top: 50px;
+
 }
-#Login > legend {
+#signup > legend {
     padding: 0;
     margin: 0 auto;
     font-weight: bold;
     width: fit-content;
-    
-}
-span.frmName {
-    background-color: green;
-    
-}
-#frmUsername {
-    color: #b3abab;
+    text-align: center;
     width: 400px;
-    height: 35px;
-    padding: 6px 12px;
-    border: 1px solid #b3abab;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    margin-top: 25px;
 }
 
-#frmPassword {
-    color: #b3abab;
-    width: 400px;
-    height: 35px;
-    padding: 6px 12px;
-    border: 1px solid #b3abab;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
 #info {
     width: 400px;
     margin: 0 auto;
     margin-bottom: 20px;
-    height: 400px;
+    height: fit-content;
     border: 0;
+}
+
+#frmUsername, #frmPassword, #frmConfirmEmail, #frmEmail, #birth {
+    color: #b3abab;
+    padding: 6px 12px;
+    width: 400px;
+    height: 35px;
+    border: 1px solid #b3abab;
+    margin: 0 auto;
     font-size: 12px;
 }
-#btnLogin {
+#frmPassword, #frmConfirmEmail, #frmEmail, #birth, #frmSex {
+    margin-bottom: 20px;
+}
+.question, .gender {
+    font-size: 12px;
+}
+.question {
+    font-weight: bold;
+}
+small {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.gender {
+    margin-right: 40px;
+}
+
+#line {
+    background-color: #b3abab;
+    height: 1px;
+}
+#politics {
+    padding-bottom: 100px;
+    float: left;
+    margin-right: 10px;
+}
+#politicsInfo {
+    width: 400px;
+    font-size: 12px;
+}
+
+.rules {
+    text-align: center;
+    font-size: 11px;
+}
+
+#btnSignup {
     float: right;
-    width: 200px;
+    width: 400px;
     border-radius: 50px;
     height: 40px;
     background-color: #ff577f;
     opacity: 0.6;
     transition: 0.4s;
-    font-size: 15px;
-    color: white;
-    font-weight: bold;
-}
-#btnLogin:hover {
-    background-color: #f8afc0;
-    opacity: 1;
-}
-#checkPwd, #rememberPwd {
-    margin-top: 10px;
-}
-
-#forgotPwd {
-    color: #ff577f;
-    text-align: center;
-    margin-top: 25px;
-    height: fit-content;
-    font-size: 12px;
-    height: 25px;
-}
-
-#noAccount {
-    text-align: center;
-}
-
-#questionAcc {
-    font-weight: bold;
-}
-
-#btnSignup {
-    color: grey;
-    background-color: white;
-    border:1px solid grey;
-    width: 400px;
-    border-radius: 50px;
-    height: 50px;
-    margin-top: 20px;
-    opacity: 0.6;
-    transition: 0.4s;
     text-transform: uppercase;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-#btnSignup:hover {
-    background-color: gray;
     color: white;
+    margin-bottom: 20px;
+}
+#btnSignup:hover {
+    background-color: #f58ba4;
     opacity: 1;
 }
-#forgotPwd > a {
-    text-decoration: none;
+#alrAccount {
+    text-align: center;
+}
+.Login {
+    color: #ff577f;
+    text-decoration: underline;
 }
 
-#forgotPwd > a:hover {
+.Login:hover {
     color: #f58ba4;
-}
-#line {
-    background-color: #b3abab;
-    height: 1px;
 }

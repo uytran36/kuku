@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--CSS-->
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/signup.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -36,19 +36,53 @@
     
     <!--CONTENT-->
     <div id="content" class="container">
-        <fieldset id="Login">
-            <legend>Login</legend>
+        <fieldset id="signup">
+            <legend>Inscrivez-vous gratuitement pour lancer la lecture.</legend><hr id="line">
             <div id="info">
-                <span class="frmName"></span><input type="text" id="frmUsername" placeholder="Email ou nom d'ulitisateur"><br>
-                <span class="frmName"></span><input type="password" id="frmPassword" placeholder="Mot de passe"><br>
-                <input type="checkbox" id="rememberPwd">
-                <label for="rememberPwd" id="checkPwd">Se souvenir de moi</label>
-                <input type="submit" value="SE CONNECTER" id="btnLogin"><br>
-                <div id="forgotPwd"><a href="#">Mot de passe oublié ?</a></div><hr id="line">
-                <div id="noAccount">
-                    <h4 id="questionAcc">Vous n'avez pas de compte ?</h4>
-                    <a href="signup.html"><input type="submit" id="btnSignup" value="Je n'ai pas KD Musique"></a>
+                <label for="frmEmail" class="question">Quelle est votre adresse e-mail ?</label>
+                <input type="text" id="frmEmail" placeholder="Saisissez votre address e-mail"><br>
+                <label for="frmConfirmEmail" class="question">Confirmez votre adresse e-mail</label>
+                <input type="text" id="frmConfirmEmail" placeholder="Saisissez de nouveau votre address e-mail"><br>
+                <label for="frmPassword" class="question">Créez un mot de passe</label>
+                <input type="password" id="frmPassword" placeholder="Creéz un mot de passe"><br>
+                <label for="frmUsername" class="question">Quel nom d'affichage souhaitez-vous définir ?</label>
+                <input type="text" id="frmUsername" placeholder="Saisissez un nom de profil"><br>
+                <small>Celui-ci apparaît sur votre profil.</small><br>
+                <label for="frmUsername" class="question">Quelle est votre date de naissance ?</label>
+                <input type="date" id="birth"><br>
+                <label for="frmSex" class="question">Quel est votre sexe ?</label><br>
+                <form id="frmSex">
+                    <input type="radio" id="Féminin" name="gender" value="Female">
+                    <label class="gender" for="Féminin">Féminin</label>
+                    <input type="radio" id="Masculin" name="gender" value="Male"> 
+                    <label class="gender" for="Masculin">Masculin</label>
+                    <input type="radio" id="Non" name="gender" value="Unknown">
+                    <label class="gender" for="Non">Non binaire</label>
+                </form>
+                <div  id="politics">
+                    <input type="checkbox">
                 </div>
+                <div id="politicsInfo">
+                    Partagez les données sur mon inscription avec les
+                    fournisseurs de contenu de KD Musique à des fins de marketing. 
+                    Notez que vos données peuvent être transférées vers des pays en 
+                    dehors de l'Espace économique européen, comme précisé dans notre 
+                    Politique de confidentialité.
+                </div> 
+                <small class="rules">
+                    En cliquant sur le bouton d'inscription, vous acceptez les
+                    <a href="#" class="Login">Conditions générales d'utilisation</a> de KD Musique.
+                </small>
+                    
+                <small class="rules">
+                    Pour en savoir plus sur la façon dont KD Musique recueille, utilise, partage et 
+                    protège vos données personnelles, veuillez consulter la 
+                    <a href="#" class="Login">Politique de confidentialité</a> de KD Musique.
+                </small>
+                <input type="submit" value="S'inscrire" id="btnSignup"><br>
+                <p id="alrAccount">Vous avez dejà un compte?<a class="Login" href="login.html">Connectez-vous</a>.</p>    
+                </div>
+                
             </div>
         </fieldset>
     </div>
