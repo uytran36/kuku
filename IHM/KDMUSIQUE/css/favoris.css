@@ -2,11 +2,14 @@
     padding: 20px 40px;
 }
 
-label {
+/* favoris */
+.wrapFavoris label {
     font-weight: bolder;
     font-size: 25px;
     padding-bottom: 50px;
+    margin-left: 10%;
 }
+
 .cardSong {
     background-color: #f7f7f7;
     width: 800px;
@@ -52,3 +55,165 @@ label {
     margin-bottom: 60px;
 }
 
+/* end of favoris */
+
+/* artist*/
+.wrap-artist, .wrap-recommandations {
+    height: 500px;
+}
+
+.wrap-list-artist label {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 10%;
+}
+
+/* carousel */
+#slider {
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+ }
+ #slider input[type=radio] {
+    display: none;
+ }
+ #slider label {
+    cursor:pointer;
+    text-decoration: none;
+ }
+ #slides {
+    padding: 10px; 
+    position: relative;
+    z-index: 1;
+ }
+ #overflow {
+    width: 100%;
+    overflow: hidden;
+ }
+ #slide1:checked ~ #slides .inner {
+    margin-left: 0;
+ }
+ #slide2:checked ~ #slides .inner {
+    margin-left: -100%;
+ }
+
+ #slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 300px;
+ }
+ #slides .slide {
+    width: 25%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+ }
+
+ #controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+ }
+ #controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+ }
+ #controls label:hover {
+    opacity: 1;
+ }
+ #slide1:checked ~ #controls label:nth-child(2),
+ #slide2:checked ~ #controls label:nth-child(1) {
+   background: url(next.png) no-repeat;
+   background-size: 50px;
+   float:right;
+   margin: 0 -50px 0 0;
+   display: block;
+ }
+ #slide1:checked ~ #controls label:nth-last-child(2),
+ #slide2:checked ~ #controls label:nth-last-child(1) {
+    background: url(previous.png) no-repeat ;
+    background-size: 50px;
+    float:left;
+    margin: 0 0 0 -50px;
+    display: block;
+ }
+
+ .artist img {
+    margin-right: 25px;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+ }
+
+ .artist-name {
+    height: 30px;
+ }
+
+ .artist-name label {
+    width: 150px;
+    font-size: 20px;
+    margin: 25px 25px 0px 0px;
+    color: #ff577F;
+    font-weight: lighter;
+ }
+
+/* end of carousel */
+/* end of artist */
+
+/* recommandations  */
+.wrap-list-recommandations label {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 10%;
+    padding-bottom: 100px;
+}
+
+.wrap-recommandations .carousel-inner {
+    width: 800px;
+    margin-left: 63px;
+}
+.wrap-recommandations .carousel-control-next, .wrap-recommandations .carousel-control-prev {
+    background-color: #666666;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#carouselExampleControls3 {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.album {
+    padding: 0;
+}
+
+.chanteur {
+    font-size: 20px;
+    color: #ff577F;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+.nomDeAlbum {
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+    margin-left: 40px;
+}
+
+.album a:hover {
+    text-decoration: none;
+    font-weight: bolder;
+}
