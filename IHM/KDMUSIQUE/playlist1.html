@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favoris</title>
+    <title>Playlist 1</title>
     <!--CSS-->
     <link rel="stylesheet" href="css/test.css">
-    <link rel="stylesheet" href="css/favoris.css">
+    <link rel="stylesheet" href="css/playlist1.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -63,13 +63,13 @@
                     </a>
                     <img src="icon/Favourite.png" style="width:20px; height:20px; margin-left: 40px;">
                 </span>
-                <span class="category">
+                <span class="category" id="playlist">
                     <a class="icon">
                         Playlist
                     </a>
                     <img src="icon/Plus.png" style="width:20px; height:20px; margin-left: 40px;">
                 </span>
-                <span class="playlist">
+                <span class="playlist" id="playlist1">
                     <a href="#">Playlist 1</a>
                     <img src="icon/Add.png" style="width:20px; height:20px; margin-left: 40px;">
                 </span>
@@ -90,8 +90,18 @@
 
         <div class="content">
             <div class="wrap-content">
-                <div class="wrapFavoris">
-                    <label>Vos Favoris</label>
+                <div class="wrap-playlist1">
+                    <label>Playlist 1</label>
+                    <div class="album-cover">
+                        <div class="wrap-cover">
+                            <img src="images/playlist1.jpg">
+                            <p>Playlist 1</p>
+                            <button id="btn-play">
+                                <i class="material-icons">play_arrow</i>
+                                <span>Jouer</span>
+                            </button>
+                        </div>
+                    </div>
                     <div class="container" id="dTable">
                         <div class="cardSong" id="song1">
                             <div class="nameSong">
@@ -235,156 +245,6 @@
                         </div>
                     </div>
                 </div>
-    
-                <div class="wrap-list-artist">
-                    <label>Vos artistes</label>
-                    <div class="wrap-artist">
-                        <div id="slider">
-                            <input type="radio" name="slider" id="slide1" checked>
-                            <input type="radio" name="slider" id="slide2">
-                            <div id="slides">
-                               <div id="overflow">
-                                  <div class="inner">
-                                     <div class="slide slide_1">
-                                        <div class="slide-content">
-                                           <div class="artist">
-                                               <img src="images/circle.png">
-                                               <img src="images/circle.png">
-                                               <img src="images/circle.png">
-                                               <img src="images/circle.png">                                                                                        
-                                           </div>
-                                           <div class="artist-name">
-                                               <label>Post Malone</label>
-                                               <label>Post Malone</label>
-                                               <label>Post Malone</label>
-                                               <label>Post Malone</label>
-                                           </div>
-                                        </div>
-                                     </div>
-                                     <div class="slide slide_2">
-                                        <div class="slide-content">
-                                            <div class="artist">
-                                                <img src="images/circle.png">
-                                                <img src="images/circle.png">
-                                                <img src="images/circle.png">
-                                                <img src="images/circle.png">                                                                                        
-                                            </div>
-                                            <div class="artist-name">
-                                                <label>Post Malone</label>
-                                                <label>Post Malone</label>
-                                                <label>Post Malone</label>
-                                                <label>Post Malone</label>
-                                            </div>
-                                        </div>
-                                     </div>
-                                  </div>
-                               </div>
-                            </div>
-                            <div id="controls">
-                               <label for="slide1"></label>
-                               <label for="slide2"></label>
-                            </div>
-                         </div>
-                    </div>
-                </div>
-
-                <div class="wrap-list-recommandations">
-                    <label>Recommandations</label>
-                    <div class="wrap-recommandations">
-                        <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col">
-                                            <div class="album">
-                                                <a href="#">
-                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
-                                                    <div class="nomDeAlbum">Circles</div>
-                                                    <div class="chanteur">Post Malone</div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="album">
-                                                <a href="#">
-                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
-                                                    <div class="nomDeAlbum">Circles</div>
-                                                    <div class="chanteur">Post Malone</div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="album">
-                                                <a href="#">
-                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
-                                                    <div class="nomDeAlbum">Circles</div>
-                                                    <div class="chanteur">Post Malone</div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="album">
-                                                <a href="#">
-                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
-                                                    <div class="nomDeAlbum">Circles</div>
-                                                    <div class="chanteur">Post Malone</div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row" id="row2">
-                                        <div class="col">
-                                            <div class="album">
-                                                <a href="#">
-                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
-                                                    <div class="nomDeAlbum">Circles</div>
-                                                    <div class="chanteur">Post Malone</div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="album">
-                                                <a href="#">
-                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
-                                                    <div class="nomDeAlbum">Circles</div>
-                                                    <div class="chanteur">Post Malone</div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="album">
-                                                <a href="#">
-                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
-                                                    <div class="nomDeAlbum">Circles</div>
-                                                    <div class="chanteur">Post Malone</div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <div class="album">
-                                                <a href="artistes.html">
-                                                    <img src="images/circle.png" alt="circle" style="width: 150px;">
-                                                    <div class="nomDeAlbum">Circles</div>
-                                                    <div class="chanteur">Post Malone</div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true" id="btnprev"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true" id="btnnext"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -441,7 +301,7 @@
         <div id="contentft" class="row">
             <!--LOGO và cre-->
             <div class="col-5">
-                <img src="images/logo.png" alt="" style="" class="logofooter">
+                <img src="images/logo.png" class="logofooter">
                 <span class="smaltextft"> ©2020 Designer par KDM d'équipe. </span>
             </div>
             <!--Các phản hồi ng dùng etc-->
