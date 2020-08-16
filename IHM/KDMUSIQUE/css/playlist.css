@@ -1,0 +1,108 @@
+/* playlist */
+#playlist {
+    background-color: #c4c4c4;
+}
+
+.wrap-vos-playlists label {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 10%;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+
+.playlists {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#playlist1 {
+    float: left;
+}
+
+#playlist2 {
+    float: left;
+}
+
+#playlist3 {
+    float: left;
+}
+
+.playlists img {
+    width: 150px;
+}
+
+.playlist-block {
+    padding-right: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.playlist-block a:hover{
+    text-decoration: none;
+    color: #ff577F;
+}
+/* end of playlist */
+/* recommandations  */
+.wrap-list-recommandations label {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 10%;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+
+.wrap-recommandations .carousel-inner {
+    width: 800px;
+    margin-left: 63px;
+}
+.wrap-recommandations .carousel-control-next, .wrap-recommandations .carousel-control-prev {
+    background-color: #666666;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#carouselExampleControls1 {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#carouselExampleControls2 {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#carouselExampleControls3 {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#carouselExampleControls4 {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.album {
+    padding: 0;
+}
+
+.chanteur {
+    font-size: 20px;
+    color: #ff577F;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+.nomDeAlbum {
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+    margin-left: 40px;
+}
+
+.album a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+/* end of recommandations */
