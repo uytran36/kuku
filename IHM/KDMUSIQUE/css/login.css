@@ -90,6 +90,12 @@ span.frmName {
     margin: 0 auto;
     margin-bottom: 20px;
 }
+#frmPassword, #frmUsername {
+    outline-style: none;
+}
+#frmPassword:focus, #frmUsername:focus {
+    border-color: black;
+}
 #info {
     width: 400px;
     margin: 0 auto;
@@ -109,6 +115,7 @@ span.frmName {
     font-size: 15px;
     color: white;
     font-weight: bold;
+    outline-style: none;
 }
 #btnLogin:hover {
     background-color: #f8afc0;
@@ -148,6 +155,7 @@ span.frmName {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: bold;
+    outline-style: none;
 }
 
 #btnSignup:hover {

@@ -13,7 +13,7 @@
 </head>
 <body>
     <!--HEADER-->
-    <div  id="header">
+    <!-- <div  id="header">
         <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="image" style="width:45px; height:45px;">
@@ -30,7 +30,7 @@
             </div>
               
           </nav>
-    </div>
+    </div> -->
     <!--END HEADER-->
 
     
@@ -40,23 +40,23 @@
             <legend>Inscrivez-vous gratuitement pour lancer la lecture.</legend><hr id="line">
             <div id="info">
                 <label for="frmEmail" class="question">Quelle est votre adresse e-mail ?</label>
-                <input type="text" id="frmEmail" placeholder="Saisissez votre address e-mail"><br>
+                <input type="text" class="answer" id="frmEmail" placeholder="Saisissez votre address e-mail"><br>
                 <label for="frmConfirmEmail" class="question">Confirmez votre adresse e-mail</label>
-                <input type="text" id="frmConfirmEmail" placeholder="Saisissez de nouveau votre address e-mail"><br>
+                <input type="text" class="answer" id="frmConfirmEmail" placeholder="Saisissez de nouveau votre address e-mail"><br>
                 <label for="frmPassword" class="question">Créez un mot de passe</label>
-                <input type="password" id="frmPassword" placeholder="Creéz un mot de passe"><br>
+                <input type="password" class="answer" id="frmPassword" placeholder="Creéz un mot de passe"><br>
                 <label for="frmUsername" class="question">Quel nom d'affichage souhaitez-vous définir ?</label>
-                <input type="text" id="frmUsername" placeholder="Saisissez un nom de profil"><br>
+                <input type="text" class="answer" id="frmUsername" placeholder="Saisissez un nom de profil"><br>
                 <small>Celui-ci apparaît sur votre profil.</small><br>
                 <label for="frmUsername" class="question">Quelle est votre date de naissance ?</label>
                 <input type="date" id="birth"><br>
                 <label for="frmSex" class="question">Quel est votre sexe ?</label><br>
                 <form id="frmSex">
-                    <input type="radio" id="Féminin" name="gender" value="Female">
+                    <input type="radio" id="Féminin" name="gender" class="genderType" value="Female">
                     <label class="gender" for="Féminin">Féminin</label>
-                    <input type="radio" id="Masculin" name="gender" value="Male"> 
+                    <input type="radio" id="Masculin" name="gender" class="genderType"value="Male"> 
                     <label class="gender" for="Masculin">Masculin</label>
-                    <input type="radio" id="Non" name="gender" value="Unknown">
+                    <input type="radio" id="Non" name="gender" class="genderType" value="Unknown">
                     <label class="gender" for="Non">Non binaire</label>
                 </form>
                 <div  id="politics">

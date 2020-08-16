@@ -85,9 +85,14 @@
     border: 1px solid #b3abab;
     margin: 0 auto;
     font-size: 12px;
+    outline-style: none;
 }
 #frmPassword, #frmConfirmEmail, #frmEmail, #birth, #frmSex {
     margin-bottom: 20px;
+}
+
+#frmPassword:focus, #frmConfirmEmail:focus, #frmEmail:focus, #birth:focus, #frmUsername:focus {
+    border-color: black;
 }
 .question, .gender {
     font-size: 12px;
@@ -134,6 +139,7 @@ small {
     text-transform: uppercase;
     color: white;
     margin-bottom: 20px;
+    outline-style: none;
 }
 #btnSignup:hover {
     background-color: #f58ba4;
