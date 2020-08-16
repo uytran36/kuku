@@ -115,3 +115,28 @@
     text-decoration: none;
     color: #ff577F;
 }
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.popup .popuptext{
+    visibility: hidden;
+    width: 700px;
+    height: 500px;
+    background-color: #E5E5E5;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 250px 0;
+    position: absolute;
+    z-index: 1;
+    margin-left: 100px;
+}
+.popup .show {
+    visibility: visible;
+}
