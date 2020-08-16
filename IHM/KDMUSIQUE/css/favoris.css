@@ -1,3 +1,7 @@
+#favoris {
+    background-color: #c4c4c4;
+}
+
 .wrap-content {
     padding: 20px 40px;
 }
@@ -215,5 +219,6 @@
 
 .album a:hover {
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: bold;
 }
+/* end of recommandations */
