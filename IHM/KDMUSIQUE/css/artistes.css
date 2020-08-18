@@ -54,7 +54,6 @@
 #content{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #E5E5E5;
-    width: 60%;
 }
 .album a{
     text-decoration: none;
@@ -71,8 +70,8 @@
 }
 .album img{
     margin-top: 30px;
-    width: 152px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
 }
 .nomDeAlbum{
     text-align: center;
@@ -89,16 +88,24 @@
     font-stretch: ultra-expanded;
     font-weight: bold;
 }
-#btnnext{
-    margin-left: 100%;
-    background-color: gray;
-    padding:10%;
-}
-#btnprev{
-    margin-right: 100%;
-    background-color: gray;
-    padding:10%;
-}
+
 .formartist{
     border-radius:100px;
+}
+
+#row1, #row2, #row3 {
+    width: 800px;
+    margin-left: 30px;
+}
+
+.wrap-carousel {
+    width: 770px;
+    margin: 0 auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    margin: auto -70px;
+    background-color: #666666;
+    width: 50px;
+    height: 50px;
 }

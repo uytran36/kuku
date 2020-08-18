@@ -51,6 +51,9 @@
 }
 /*END HEADER AND FOOTER*/
 /*BODY*/
+#album {
+    background-color: #c4c4c4;
+}
 #body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #E5E5E5;
