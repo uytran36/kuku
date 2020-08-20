@@ -27,6 +27,7 @@
             <!--Search và micro-->
             <div class="input-group  mr-sm-2" id="searchhd">
                 <input id="transcript" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <form action="search.html" method="get" id="formSearch"></form>
                 <div class="input-group-append">
                     <button id="btnSearchByVoice" onclick="SearchByVoice()" type="button" class="btn btn-light"
                         style="box-shadow: 0 0;">
@@ -34,7 +35,7 @@
                     </button>
                 </div>
             </div>
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit" form="formSearch">
                 <i class="fa fa-search"></i>
             </button>
             <div class="seformhd">
@@ -58,6 +59,7 @@
                 </div>
             </form>
         </div>
+        
         <div id="ResultFound">
             <div class="row" id="row1">
                 <div class="col">
@@ -211,6 +213,7 @@
                 </div>
             </div>
         </div>
+        
         <div id="temp"></div>
     </div>
 

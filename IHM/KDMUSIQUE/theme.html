@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <script src="js/search.js"></script>
 </head>
 <body>
     <!--HEADER-->
@@ -21,14 +21,16 @@
             </a>
             <!--Search và micro-->
             <div class="input-group  mr-sm-2" id="searchhd">
-                <input class="form-control" type="search" placeholder="Search" aria-label="Search"  >
+                <input id="transcript" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <form action="search.html" method="get" id="formSearch"></form>
                 <div class="input-group-append">
-                    <button type="button" class="btn btn-light" style="box-shadow: 0 0;">
+                    <button id="btnSearchByVoice" onclick="SearchByVoice()" type="button" class="btn btn-light"
+                        style="box-shadow: 0 0;">
                         <i class="fa fa-microphone"></i>
                     </button>
                 </div>
             </div>
-            <button class="btn btn-outline-light" type="submit">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit" form="formSearch">
                 <i class="fa fa-search"></i>
             </button>
             <!--Đăng ký và đăng nhập-->
@@ -441,6 +443,17 @@
                     La musique s'est arrêtée, les aiguilles se figent et je sens, je te sens</p>
             </div>
         </div>
+
+        <div class="popup">
+            <form id="labnol" action="search.html" method="GET">
+                <div class="popuptext" id="popupContent">Parlez quelques choses...
+                    <div class="speech">
+                        <img src="images/micro.png" />
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="temp"></div>
     </div>
     
 
