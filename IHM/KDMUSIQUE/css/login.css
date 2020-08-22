@@ -174,3 +174,7 @@ span.frmName {
     background-color: #b3abab;
     height: 1px;
 }
+
+#content {
+    padding-bottom: 165px;
+}
