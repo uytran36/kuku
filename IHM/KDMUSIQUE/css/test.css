@@ -5,15 +5,17 @@
     margin-bottom: 0.5%;
 }
 #navbar{
-    width: 53%;
-    margin: 0 auto 0 auto;
+    margin-left: 20%;
+    margin-right: 15%;
 }
 #searchhd{
-   width: 60%;
+   width: 65%;
 }
+
 .seformhd{
     color: white;
     margin-left: 3%;
+    display: inline;
 }
 .seconnecterhd:hover{
     color: coral;
@@ -191,3 +193,11 @@ body {
 }
 
 /* end of playzone and lyrics */
+
+@media only screen and (max-width: 1000px){
+    #navbar{
+        margin-left: 10%;
+        padding-bottom: 20px;
+    }
+    
+}
