@@ -20,21 +20,8 @@
     margin: 0px;
     border-top: 1px solid #c5c5c5;
     padding: 15px;
-}
-
-.nameSong {
-    float: left;
-    padding-right: 250px;
-}
-
-.author {
-    float: left;
-    padding-right: 240px;
-}
-
-.toolBox ul {
-    margin-top: -40px;
-    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 300px 300px 100px
 }
 
 .toolBox ul li {
@@ -63,7 +50,10 @@
 
 /* artist*/
 
-.wrap-artist, .wrap-recommandations {
+.wrap-artist {
+    height: 300px;
+}
+.wrap-recommandations {
     height: 500px;
 }
 
@@ -73,109 +63,13 @@
     margin-left: 10%;
 }
 
-/* carousel */
-#slider {
-    margin: 0 auto;
-    width: 800px;
-    max-width: 100%;
-    text-align: center;
- }
- #slider input[type=radio] {
-    display: none;
- }
- #slider label {
-    cursor:pointer;
-    text-decoration: none;
- }
- #slides {
-    padding: 10px; 
-    position: relative;
-    z-index: 1;
- }
- #overflow {
-    width: 100%;
-    overflow: hidden;
- }
- #slide1:checked ~ #slides .inner {
-    margin-left: 0;
- }
- #slide2:checked ~ #slides .inner {
-    margin-left: -100%;
- }
-
- #slides .inner {
-    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-    width: 400%;
-    line-height: 0;
-    height: 300px;
- }
- #slides .slide {
-    width: 25%;
-    float:left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: #fff;
- }
-
- #controls {
-    margin: -180px 0 0 0;
-    width: 100%;
-    height: 50px;
-    z-index: 3;
-    position: relative;
- }
- #controls label {
-    transition: opacity 0.2s ease-out;
-    display: none;
-    width: 50px;
-    height: 50px;
-    opacity: .4;
- }
- #controls label:hover {
-    opacity: 1;
- }
- #slide1:checked ~ #controls label:nth-child(2),
- #slide2:checked ~ #controls label:nth-child(1) {
-   background: url(next.png) no-repeat;
-   background-size: 50px;
-   float:right;
-   margin: 0 -50px 0 0;
-   display: block;
- }
- #slide1:checked ~ #controls label:nth-last-child(2),
- #slide2:checked ~ #controls label:nth-last-child(1) {
-    background: url(previous.png) no-repeat ;
-    background-size: 50px;
-    float:left;
-    margin: 0 0 0 -50px;
-    display: block;
- }
-
- .artist img {
-    margin-right: 25px;
+.wrap-artist img {
     border-radius: 100px;
-    width: 150px;
-    height: 150px;
-    cursor: pointer;
- }
+}
 
- .artist-name {
-    height: 30px;
- }
-
- .artist-name label {
-    width: 150px;
-    font-size: 20px;
-    margin: 25px 25px 0px 0px;
-    color: #ff577F;
-    font-weight: lighter;
- }
-
-/* end of carousel */
-/* end of artist */
-
+.wrap-artist .chanteur {
+    font-size: 15px;
+}
 /* recommandations  */
 .wrap-list-recommandations label {
     font-weight: bolder;
@@ -184,10 +78,18 @@
     padding-bottom: 100px;
 }
 
-.wrap-recommandations .carousel-inner {
+.wrap-recommandations .carousel-inner, .wrap-artist .carousel-inner {
     width: 800px;
     margin-left: 63px;
 }
+
+.wrap-artist .carousel-control-next, .wrap-artist .carousel-control-prev {
+    background-color: #666666;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
 .wrap-recommandations .carousel-control-next, .wrap-recommandations .carousel-control-prev {
     background-color: #666666;
     width: 50px;
@@ -202,20 +104,21 @@
 
 .album {
     padding: 0;
+    text-align: center;
 }
 
 .chanteur {
-    font-size: 20px;
+    font-size: 13px;
     color: #ff577F;
     font-weight: lighter;
-    margin-left: 20px;
+    text-align: center;
 }
 
 .nomDeAlbum {
-    font-size: 20px;
+    font-size: 13px;
     color: black;
-    font-weight: lighter;
-    margin-left: 40px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .album a:hover {

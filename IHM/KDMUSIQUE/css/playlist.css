@@ -90,20 +90,21 @@
 
 .album {
     padding: 0;
+    text-align: center;
 }
 
 .chanteur {
-    font-size: 20px;
+    font-size: 13px;
     color: #ff577F;
     font-weight: lighter;
-    margin-left: 20px;
+    text-align: center;
 }
 
 .nomDeAlbum {
-    font-size: 20px;
+    font-size: 13px;
     color: black;
-    font-weight: lighter;
-    margin-left: 40px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .album a:hover {
